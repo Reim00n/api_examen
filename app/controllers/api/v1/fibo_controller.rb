@@ -1,6 +1,6 @@
-class Api::V1::FiboController < ApiController
+class Api::V1::FiboController < ApplicationController
   def show
-    n = "%\"#{params[:n]}\"%"
+    n = params[:n].to_i
     result = calculate_fibonacci(n)
     render json: { index: n, value: result }
   end
