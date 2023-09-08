@@ -80,3 +80,5 @@ active admin similar al admin de django
 y para la seguridad del endpoint tiene un token de usuario
 
 anexo en una carpeta llamada imagen en la raiz los datos del postman y del admin
+
+el archivo .env seria las claves de mi postgres alojado localmente
