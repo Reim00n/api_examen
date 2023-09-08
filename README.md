@@ -55,15 +55,28 @@ Para iniciar el servidor
 entrar en una terminal en la raiz del proyecto y correr
 bundle install
 
+rails db:create para crear la db
+
+rails db:seed para inicializar el usuario por defecto
+
+
 acto seguido 
 
 rails s para iniciar el servidor 
 
+y se puede iniciar por localhost:3000
+
 y el endpoint de fifo se encuentra en
-http://localhost:3000/api/v1/fibo?n=3
+post localhost:3000/api/v1/fibo
 
-podrian usarse gemas que serian lo equivalente a librerias para 
+y en un json 
 
-agregar algun login en forma de endpoint y en algun formulario html 
+n=3
 
-una gema famosa para esto es devise y active admin
+actualmente posee un panel de administracion que seria con la gema
+
+active admin similar al admin de django
+
+y para la seguridad del endpoint tiene un token de usuario
+
+anexo en una carpeta llamada imagen en la raiz los datos del postman y del admin
