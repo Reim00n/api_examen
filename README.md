@@ -61,3 +61,9 @@ rails s para iniciar el servidor
 
 y el endpoint de fifo se encuentra en
 http://localhost:3000/api/v1/fibo?n=3
+
+podrian usarse gemas que serian lo equivalente a librerias para 
+
+agregar algun login en forma de endpoint y en algun formulario html 
+
+una gema famosa para esto es devise y active admin

@@ -1,4 +1,4 @@
-class Api::V1::FiboController < ApplicationController
+class Api::V1::FiboController < ApiController
   def show
     n = params[:n].to_i
     result = calculate_fibonacci(n)
